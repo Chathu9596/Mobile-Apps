@@ -133,7 +133,14 @@ a:hover{
     height: 6em;
     overflow: hidden;
 }
-
+#btn99 {
+  padding: 0.5em;
+  border-radius: 0.3em;
+  color: whitesmoke;
+  font-size: 1.5em;
+  background: rgb(209, 8, 236);
+  cursor: pointer;
+}
 /*****************************/
 /* フッター                   */
 /*****************************/
