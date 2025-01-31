@@ -116,6 +116,14 @@ input[type=number] {
   text-align: left;
   vertical-align: middle;
 }
+#btn99 {
+  padding: 0.5em;
+  border-radius: 0.3em;
+  color: whitesmoke;
+  font-size: 1.5em;
+  background: rgb(50, 236, 8);
+  cursor: pointer;
+}
 /*******************************************************/
 /* フッター                                             */
 /*******************************************************/
@@ -128,7 +136,7 @@ footer> p {
   color: whitesmoke;
   font: 16px Rajdhani;
   text-align: center;
-  background: rgba(1, 24, 31, 0.7);
+  background:  rgb(8, 221, 236);
 }
 
 .mgn-01{
