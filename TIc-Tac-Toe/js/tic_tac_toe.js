@@ -398,18 +398,21 @@ function isReach(status) {
         let bdCheckCnt = 0;
 
         line.forEach(function(square){
-          if(square.classList.contains("js-wd-checked")){
+          if(square.classList.contains("js-bd-checked")){
             bdCheckCnt++; //bdがチェックされている数
           }  
-          if(square.classList.contains("js-bd-checked")){
+          if(square.classList.contains("js-wd-checked")){
             wdCheckCnt++; //bdがチェックされている数
           }  
       });
 
       //bdのリ－チ行検索ときに、ｗｄリ－チ行あり
-      if (status === "wd" && bdCheckCnt === 2 && wdCheckCnt === 0) {
+      if (status === "bd" && bdCheckCnt === 2 && wdCheckCnt === 0) {
         bdTurnEnd = "1";//bdのリ－チ行あり
       }
+        //wdのリ－チ行検索ときに、ｗｄリ－チ行あり
+      if (status === "wd" && bdCheckCnt === 2 && wdCheckCnt === 0) {
+        bdTurnEnd = "1";//bdのリ－チ行あり
 
       //bdがwdのリ－チ行ありの場合、空いているbdめをえらんでする
       if(bdTurnEnd === "1"){
