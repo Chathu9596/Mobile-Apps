@@ -116,6 +116,16 @@ input[type=number] {
   text-align: left;
   vertical-align: middle;
 }
+#btn99 {
+  padding: 0.5em;
+  border-radius: 0.3em;
+  color: whitesmoke;
+  font-size: 1.5em;
+  background: rgb(209, 8, 236);
+  cursor: pointer;
+  /*カーソルをポインターの形（かたち）にする*/
+}
+
 /*******************************************************/
 /* フッター                                             */
 /*******************************************************/
