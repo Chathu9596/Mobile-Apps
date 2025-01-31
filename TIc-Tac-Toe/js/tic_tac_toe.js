@@ -413,7 +413,7 @@ function isReach(status) {
         //wdのリ－チ行検索ときに、ｗｄリ－チ行あり
       if (status === "wd" && bdCheckCnt === 2 && wdCheckCnt === 0) {
         bdTurnEnd = "1";//bdのリ－チ行あり
-
+      }
       //bdがwdのリ－チ行ありの場合、空いているbdめをえらんでする
       if(bdTurnEnd === "1"){
         line.some(function (square) {
