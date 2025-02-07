@@ -121,7 +121,7 @@ input[type=number] {
   border-radius: 0.3em;
   color: whitesmoke;
   font-size: 1.5em;
-  background:  rgb(8, 221, 236);
+  background:  rgba(220, 52, 159, 0.833);
   cursor: pointer;
   /*カーソルをポインターの形（かたち）にする*/
 }
