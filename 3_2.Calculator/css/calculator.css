@@ -121,7 +121,7 @@ input[type=number] {
   border-radius: 0.3em;
   color: whitesmoke;
   font-size: 1.5em;
-  background: rgb(50, 236, 8);
+  background: rgba(220, 52, 159, 0.833);
   cursor: pointer;
 }
 /*******************************************************/
